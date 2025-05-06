@@ -1,1 +1,1 @@
-
+# Clicx - API platform
