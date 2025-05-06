@@ -1,0 +1,8 @@
+services:
+  server:
+    image: ghcr.io/mart337i/deploy-it.dk:${GIT_COMMIT_HASH}
+    ports:
+      - 8000:8000
+    environment:
+      token_value: ${token_value}
+
